@@ -1,28 +1,35 @@
-# Professional Online Banking - Full Stack Web Application
+# BankSecure - Full Stack Online Banking System
 
-## Description
+## Overview
+BankSecure is a full-stack, secure, and robust online banking platform developed using Java/J2EE with the Spring framework and MySQL. It features advanced security measures, including secure session management, and offers a responsive front-end built with Thymeleaf, Bootstrap, and JQuery, along with an Angular-based admin portal.
 
-* Designed and developed an online banking using Java/J2EE, Spring, and Hibernate ORM.
-* Implemented cross-site scripting interceptors and session management techniques to secure data.
-* Enhanced database interaction using Hibernate annotations based mapping with MySQL.
-* Built a user friendly and responsive website to enhance user experience.
+## Features
+- **Secure Online Transactions**: Utilizes Java/J2EE with Spring for back-end operations ensuring secure and efficient banking transactions.
+- **Advanced Security**: Integrates advanced security protocols for data protection and secure user session management.
+- **Responsive User Interface**: Front-end developed using Thymeleaf, Bootstrap, and JQuery, offering a seamless user experience.
+- **Admin Portal**: An Angular-based admin portal for efficient bank administration and management.
 
-## Programming Language
+## Technologies Used
+- **Back-End**: Java/J2EE, Spring, Hibernate, MySQL
+- **Front-End**: Thymeleaf, Bootstrap, JQuery
+- **Admin Portal**: Angular
+- **Security**: Spring Security, Secure Session Management
+- **Other Tools**: Python, Keras, TensorBoard (for backend data analysis using deep learning techniques)
 
-Java, JavaScript, SQL
+## Installation & Setup
+1. **Clone the repository**
+2. **Install Dependencies**
+- Navigate to the project directory and install the required Java and Node.js dependencies.
+3. **Database Setup**
+- Set up the MySQL database using the provided schema in the `db` folder.
+4. **Run the Application**
+- Launch the backend server using Spring Boot.
+- Start the front-end and admin portal applications separately.
 
-## Technologies
+## Usage
+- **Customer Interface**: Access the user interface on the default port to perform online banking operations.
+- **Admin Interface**: Log in to the admin portal for administrative tasks.
 
-### User Front
+## Contributing
+Contributions to BankSecure are welcome! Please feel free to submit pull requests or open issues for any improvements or bug fixes.
 
-* **Backend**: Spring Boot, Spring Security, Spring Data, Hibernate, maven.
-* **Frontend**: Thymeleaf, HTML5, CSS3, Bootstrap, JQuery
-* **Database**: MySQL
-
-### Admin Portail
-
-* Angular, Typescript
-
-## Tools/IDE
-
-Spring Tool Suite, Eclipse, MySQL
